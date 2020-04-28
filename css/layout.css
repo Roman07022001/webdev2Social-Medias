@@ -1,0 +1,155 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing:border-box;    
+}
+body{
+background-image:url(../background.png);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+.menu-bar{
+background:green;
+text-align: center;
+}
+.menu-bar ul{
+display:inline-flex;
+list-style:none;
+color:white;
+}
+.menu-bar ul li{
+width:120px;
+margin:15px;
+padding:15px;
+}
+.menu-bar ul li a{
+text-decoration:none;
+color:white;
+}
+
+.active,.menu-bar ul li:hover
+{
+background-color:#2bab0d;
+border-radius:3px;
+}
+.sub-menu-1{
+    display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+display: block;
+position:absolute;
+background:green;
+margin top:15px;
+margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width: 150px;
+padding:10px;
+border-bottom:1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+.menu-bar .fa{
+margin-right:4px;
+}
+.inst{
+display:block;
+margin-left: auto;
+margin-right:auto;
+margin-top:450px;
+}
+.Title{
+position: absolute;
+top:20%;
+left:15%;
+right:15%;
+}
+.logo{
+float:left;
+width: 200px;
+
+}
+.pic{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.Insta1{
+position: absolute;
+left:10%;
+right:10%;
+}
+.one{
+display: block;
+margin-left: auto;
+margin-right: auto;
+top:-25px;
+}
+.face{
+position: absolute;
+left:10%;
+right:10%;
+}
+.mas{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.inc{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.opak{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.snap{
+position: absolute;
+left:10%;
+right:10%;
+}
+.www{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.tik{
+position: absolute;
+left:10%;
+right:10%;
+}
+.werk{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.low{
+display: block;
+margin-left: auto;
+margin-right: auto;    
+}
+.gar{
+display: block;
+margin-left: auto;
+margin-right: auto; 
+}
+.About{
+ position: absolute;
+left:10%;
+right:10%;  
+}
+.contact{
+position: absolute;
+left:10%;
+right:10%; 
+}
